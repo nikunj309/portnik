@@ -47,7 +47,7 @@ const Contact = () => {
                 <div className='container mx-auto py-12 text-center xl:text-left flex items-center justify-center h-full'>
                     <div className='flex flex-col md:w-full w-80 max-w-[700px]'>
                         <h2 className='md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-4 mb-14 text-white relative z-20'>
-                           \"Let's\" <span className='animate-pulse bg-gradient-to-r text-transparent from-orange-400 to-orange-600 bg-clip-text'>succeed</span> together
+                        Time to <span className='animate-pulse bg-gradient-to-r text-transparent from-orange-400 to-orange-600 bg-clip-text'>succeed</span> together
                         </h2>
                         <form onSubmit={handleSubmit} className='flex-1 flex flex-col gap-6 w-full mx-auto'>
                             <div className='flex gap-x-6 w-full'>
