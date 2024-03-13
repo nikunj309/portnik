@@ -47,7 +47,7 @@ const HeroSection = () => {
           <TypewriterEffectSmooth words={words} className='justify-center flex flex-wrap' />
           <TypewriterEffectSmooth words={words2} className='justify-center md:hidden flex flex-wrap' />
         </div>
-        <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-3xl mx-auto'> a passionate Full Stack Developer. With a love for coding and a knack for turning ideas into functional, user-friendly applications, I bring a dynamic blend of creativity and technical expertise to every project. Let's build something remarkable together!</p>
+        <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-3xl mx-auto'> a passionate Full Stack Developer. With a love for coding and a knack for turning ideas into functional, user-friendly applications, I bring a dynamic blend of creativity and technical expertise to every project. \"Let's\" build something remarkable together!</p>
         <div className='mt-6'>
           {/* <Button
             borderRadius="1.75rem"

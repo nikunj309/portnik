@@ -45,11 +45,11 @@ const About = () => {
                     fill="white"
                 />
                 <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-                    <h1 className='md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-6 text-white relative z-20'>More than code, it's a mission</h1>
+                    <h1 className='md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-6 text-white relative z-20'>More than code, it is a mission</h1>
                     <div className='flex mt-5 justify-center '>
                         <div className='md:w-1/2 w-96 ms:p-4 md:m-6'>
                             <p className='text-lg leading-loose mb-8'>
-                                I'm a passionate full-stack developer driven by the power of code to create
+                                I am a passionate full-stack developer driven by the power of code to create
                                 beautiful, functional, and impactful web experiences. With a deep
                                 understanding of both front-end and back-end development, I leverage my
                                 expertise in:
