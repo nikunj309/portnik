@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 
 // Function to send email
-async function sendEmail(formData) {
+async function sendEmail(formData: { name: string; email: string; subject: string; message: string }) {
   // Create transporter using SMTP settings
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
