@@ -3,9 +3,9 @@ import { SparklesCore } from './ui/sparkles';
 import { PinContainer } from './ui/3d-pin';
 import Link from 'next/link';
 import Image from 'next/image';
-import github from "../../public/github.png"
 import blogweb from "../../public/blogweb.png"
 import { SocialIcon } from 'react-social-icons';
+import { TextRevealCard } from './ui/text-reveal-card';
 
 const ProjectSection = () => {
     return (
@@ -21,10 +21,13 @@ const ProjectSection = () => {
                     particleColor="#FFFFFF"
                 />
             </div>
-            <h1 className="md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-6 text-white relative z-20">
-                Projects
-            </h1>
-            <div className='md:mt-12 mt-52 justify-center'>
+            <div>
+                <h1 className=" animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent  md:text-7xl text-center justify-center text-3xl font-bold lg:text-5xl mt-6 relative z-20">
+                Highlighting My Work
+                </h1>
+               
+            </div>
+            <div className='md:mt-12 mt-48 justify-center'>
                 <div className='justify-center'>
                     <PinContainer
                         title="https://cakyy.netlify.app/"

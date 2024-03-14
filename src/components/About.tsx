@@ -45,16 +45,16 @@ const About = () => {
                     fill="white"
                 />
                 <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-                    <h1 className='md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-6 text-white relative z-20'>More than code, it is a mission</h1>
+                    <h1 className='md:text-7xl text-center justify-center text-3xl lg:text-5xl font-bold mt-1 text-white relative z-20'>More than code, it is a mission</h1>
                     <div className='flex mt-5 justify-center '>
-                        <div className='md:w-1/2 w-96 ms:p-4 md:m-6'>
+                        <div className='md:w-1/2 w-96 ms:p-4 text-white md:m-6'>
                             <p className='text-lg leading-loose mb-8'>
                                 I am a passionate full-stack developer driven by the power of code to create
                                 beautiful, functional, and impactful web experiences. With a deep
                                 understanding of both front-end and back-end development, I leverage my
                                 expertise in:
                             </p>
-                            <ul className='list-disc pl-4 space-y-2'> {/* Unordered list with spacing */}
+                            <ul className='list-disc pl-4 space-y-2'> 
                                 <li className='text-lg'>
                                     React & Next.js: Building dynamic and interactive user interfaces that are
                                     performant and SEO-friendly.

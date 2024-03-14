@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 const svgToDataUri = require("mini-svg-data-uri");
- 
+
 const colors = require("tailwindcss/colors");
 
 const {
@@ -24,6 +24,7 @@ const config: Config = {
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        text: 'text 5s ease infinite',
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
@@ -42,7 +43,17 @@ const config: Config = {
             opacity: '1',
             transform: "translate(-50%,-40%) scale(1)",
           },
-          
+
+        },
+        text: {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center',
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center',
+          },
         },
       },
     },
@@ -77,7 +88,7 @@ function addVariablesForColors({ addBase, theme }: any) {
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
- 
+
   addBase({
     ":root": newVars,
   });
